@@ -66,71 +66,71 @@ namespace _01_MainSubjects
 
             #region int
             
-            int number = 24;
-            Console.WriteLine(number);
+            //int number = 24;
+            //Console.WriteLine(number);
 
 
-            int hamburgerPrice = 300;
-            int cokePrice = 35;
-            int waterPrace = 18;
-            int friesPrace = 10;
-            int pizzaPrace = 250;
-            int lemonadePrace = 25;
+            //int hamburgerPrice = 300;
+            //int cokePrice = 35;
+            //int waterPrace = 18;
+            //int friesPrace = 10;
+            //int pizzaPrace = 250;
+            //int lemonadePrace = 25;
 
-            Console.WriteLine("****restoran menü fiyatı****");
-            Console.WriteLine();
-            Console.WriteLine("hamburger:" + hamburgerPrice + "tl");
-            Console.WriteLine("kola:" + cokePrice + "tl");
-            Console.WriteLine("su" + waterPrace + "tl");
-            Console.WriteLine("kızartma" + friesPrace + "tl");
-            Console.WriteLine("pizza" + pizzaPrace + "tl");
-            Console.WriteLine("limonata" + lemonadePrace + "tl");
-            Console.WriteLine();
-            Console.WriteLine("**** restoran menü***");
+            //Console.WriteLine("****restoran menü fiyatı****");
+            //Console.WriteLine();
+            //Console.WriteLine("hamburger:" + hamburgerPrice + "tl");
+            //Console.WriteLine("kola:" + cokePrice + "tl");
+            //Console.WriteLine("su" + waterPrace + "tl");
+            //Console.WriteLine("kızartma" + friesPrace + "tl");
+            //Console.WriteLine("pizza" + pizzaPrace + "tl");
+            //Console.WriteLine("limonata" + lemonadePrace + "tl");
+            //Console.WriteLine();
+            //Console.WriteLine("**** restoran menü***");
 
 
 
-            Console.WriteLine();
-            int hamburgerCount;
-            int cokeCount;
-            int waterCount;
-            int friesCount;
-            int pizzaCount;
-            int lemonadeCount;
+            //Console.WriteLine();
+            //int hamburgerCount;
+            //int cokeCount;
+            //int waterCount;
+            //int friesCount;
+            //int pizzaCount;
+            //int lemonadeCount;
 
-            int totalhamburgerPrice = 0;
-            int totalcokePrice;
-            int totalwaterPrice;
-            int totalfriesPrice;
-            int totalpizzaPrice;
-            int totallemonadePrice;
+            //int totalhamburgerPrice = 0;
+            //int totalcokePrice;
+            //int totalwaterPrice;
+            //int totalfriesPrice;
+            //int totalpizzaPrice;
+            //int totallemonadePrice;
         
-             hamburgerCount = 1;
-             cokeCount = 3;
-             waterCount = 8;
-             friesCount = 7;
-             pizzaCount = 6;
-            lemonadeCount = 5;
+            // hamburgerCount = 1;
+            // cokeCount = 3;
+            // waterCount = 8;
+            // friesCount = 7;
+            // pizzaCount = 6;
+            //lemonadeCount = 5;
 
-            totalhamburgerPrice = hamburgerCount * hamburgerPrice;
-            totalcokePrice = cokeCount * cokePrice;
-            totalpizzaPrice = pizzaCount * pizzaPrace;
-            totalwaterPrice = waterCount * waterPrace;
-            totallemonadePrice = lemonadeCount * lemonadePrace;
-            totalfriesPrice = friesCount * friesPrace;
+            //totalhamburgerPrice = hamburgerCount * hamburgerPrice;
+            //totalcokePrice = cokeCount * cokePrice;
+            //totalpizzaPrice = pizzaCount * pizzaPrace;
+            //totalwaterPrice = waterCount * waterPrace;
+            //totallemonadePrice = lemonadeCount * lemonadePrace;
+            //totalfriesPrice = friesCount * friesPrace;
 
-            Console.WriteLine("------------------------------");
-            Console.WriteLine("Hamburger Tutarı: " + totalhamburgerPrice + "tl");
-            Console.WriteLine("kola Tutarı: " + totalcokePrice+ "tl");
-            Console.WriteLine("su Tutarı: " + totalhamburgerPrice + "tl");
-            Console.WriteLine("kızartma Tutarı: " + totalhamburgerPrice + "tl");
-            Console.WriteLine("pizza Tutarı: " + totalhamburgerPrice + "tl");
-            Console.WriteLine("limonata Tutarı: " + totalhamburgerPrice + "tl");
+            //Console.WriteLine("------------------------------");
+            //Console.WriteLine("Hamburger Tutarı: " + totalhamburgerPrice + "tl");
+            //Console.WriteLine("kola Tutarı: " + totalcokePrice+ "tl");
+            //Console.WriteLine("su Tutarı: " + totalhamburgerPrice + "tl");
+            //Console.WriteLine("kızartma Tutarı: " + totalhamburgerPrice + "tl");
+            //Console.WriteLine("pizza Tutarı: " + totalhamburgerPrice + "tl");
+            //Console.WriteLine("limonata Tutarı: " + totalhamburgerPrice + "tl");
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            int totalPrice = totalcokePrice + totalhamburgerPrice + totallemonadePrice + totalfriesPrice + totalwaterPrice + totalpizzaPrice;
-            Console.WriteLine("toplam ödenecek tutar:" +totalPrice + " tl");
+            //int totalPrice = totalcokePrice + totalhamburgerPrice + totallemonadePrice + totalfriesPrice + totalwaterPrice + totalpizzaPrice;
+            //Console.WriteLine("toplam ödenecek tutar:" +totalPrice + " tl");
             #endregion
 
             Console.Read();
